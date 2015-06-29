@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALI_ID	include/ulog.h	34;"	d
+BUF_SIZE	include/ulog.h	28;"	d
+CODE_H	include/code.h	2;"	d
+DOWNLOAD_ID	include/ulog.h	37;"	d
+GetBase64Value	srcfile/decode.c	/^char GetBase64Value(char ch) \/\/得到编码值$/;"	f
+KEYWORD_ID	include/ulog.h	35;"	d
+MAC_ID	include/ulog.h	33;"	d
+MEM_ID	include/ulog.h	39;"	d
+NETLINK_GROUP	include/ulog.h	27;"	d
+NETLINK_NFLOG	include/ulog.h	24;"	d
+QQ_ID	include/ulog.h	32;"	d
+WMAIL_ID	include/ulog.h	36;"	d
+array	include/ulog.h	/^	unsigned short *array;$/;"	m	union:semun
+base64_decode	srcfile/decode.c	/^int base64_decode( char *gb2312string, char *base64string, int base64_len, int force )  \/\/解码函数$/;"	f
+base64_encode	srcfile/decode.c	/^int base64_encode( char *gb2312string, char *base64string, int gb2312stringlen ) $/;"	f
+buf	include/ulog.h	/^	struct semid_ds *buf;$/;"	m	union:semun	typeref:struct:semun::semid_ds
+debug	include/ulog.h	30;"	d
+debug_coding	include/code.h	4;"	d
+del_semvalue	srcfile/ulog.c	/^void del_semvalue(int sem_id){$/;"	f
+do_log	srcfile/ulog.c	/^int do_log(char *buf, int buflen, char *log_dir){$/;"	f
+gb2312_to_utf8	srcfile/decode.c	/^int gb2312_to_utf8(unsigned char *gb2312string, int gb2312string_len, unsigned char *utf8string)$/;"	f
+gb_2_uni	include/code.h	/^unsigned short gb_2_uni[95][95];$/;"	v
+is_bigendian	srcfile/decode.c	/^int is_bigendian(){$/;"	f
+main	srcfile/main.c	/^void main()$/;"	f
+obj	makefile	/^obj = main.o ulog.o decode.o $/;"	m
+parase_log	srcfile/ulog.c	/^void  parase_log(char *buf, int buflen, struct sem *mysem)$/;"	f
+pretime	include/ulog.h	/^struct pretime{$/;"	s
+sem	include/ulog.h	/^struct sem {$/;"	s
+sem_id_ali	include/ulog.h	/^	int sem_id_ali;$/;"	m	struct:sem
+sem_id_download	include/ulog.h	/^	int sem_id_download;$/;"	m	struct:sem
+sem_id_keyword	include/ulog.h	/^	int sem_id_keyword;$/;"	m	struct:sem
+sem_id_mac	include/ulog.h	/^	int sem_id_mac;$/;"	m	struct:sem
+sem_id_qq	include/ulog.h	/^	int sem_id_qq;$/;"	m	struct:sem
+sem_id_wmail	include/ulog.h	/^	int sem_id_wmail;$/;"	m	struct:sem
+semaphore_p	srcfile/ulog.c	/^int semaphore_p(int sem_id){$/;"	f
+semaphore_v	srcfile/ulog.c	/^int semaphore_v(int sem_id){$/;"	f
+semun	include/ulog.h	/^union semun {$/;"	u
+set_semvalue	srcfile/ulog.c	/^int set_semvalue(int sem_id){$/;"	f
+sig_chld	srcfile/ulog.c	/^void sig_chld(int signo)$/;"	f
+tmali	include/ulog.h	/^	long tmali;$/;"	m	struct:pretime
+tmdownload	include/ulog.h	/^	long tmdownload;$/;"	m	struct:pretime
+tmkeyword	include/ulog.h	/^	long tmkeyword;$/;"	m	struct:pretime
+tmmac	include/ulog.h	/^	long tmmac;$/;"	m	struct:pretime
+tmqq	include/ulog.h	/^	long tmqq;$/;"	m	struct:pretime
+tmwmail	include/ulog.h	/^	long tmwmail;$/;"	m	struct:pretime
+val	include/ulog.h	/^	int val;$/;"	m	union:semun
+wchar	include/code.h	/^typedef unsigned short wchar;$/;"	t

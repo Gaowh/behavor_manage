@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GetBase64Value	decode.c	/^char GetBase64Value(char ch) \/\/得到编码值$/;"	f
+base64_decode	decode.c	/^int base64_decode( char *gb2312string, char *base64string, int base64_len, int force )  \/\/解码函数$/;"	f
+base64_encode	decode.c	/^int base64_encode( char *gb2312string, char *base64string, int gb2312stringlen ) $/;"	f
+del_semvalue	ulog.c	/^void del_semvalue(int sem_id){$/;"	f
+do_log	ulog.c	/^int do_log(char *buf, int buflen, char *log_dir){$/;"	f
+gb2312_to_utf8	decode.c	/^int gb2312_to_utf8(unsigned char *gb2312string, int gb2312string_len, unsigned char *utf8string)$/;"	f
+is_bigendian	decode.c	/^int is_bigendian(){$/;"	f
+main	main.c	/^void main()$/;"	f
+parase_log	ulog.c	/^void  parase_log(char *buf, int buflen, struct sem *mysem)$/;"	f
+semaphore_p	ulog.c	/^int semaphore_p(int sem_id){$/;"	f
+semaphore_v	ulog.c	/^int semaphore_v(int sem_id){$/;"	f
+set_semvalue	ulog.c	/^int set_semvalue(int sem_id){$/;"	f
+sig_chld	ulog.c	/^void sig_chld(int signo)$/;"	f

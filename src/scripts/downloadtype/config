@@ -1,0 +1,2 @@
+config_downloadtype=on
+rule1#ON#192.168.1.205#exe,pdf#Y#*#*
